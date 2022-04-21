@@ -1,0 +1,27 @@
+server:
+  port: 5519
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Hongkong
+    username: root
+    password: LISHU690913li&
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+        dialect: org.hibernate.dialect.MySQL5Dialect
+
+  mvc:
+    view:
+      prefix: /pages/
+      suffix: .jsp
+
+#log 打印日志
+logging:
+  level:
+    com.per: debug

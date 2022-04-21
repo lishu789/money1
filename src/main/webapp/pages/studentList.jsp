@@ -11,7 +11,7 @@
         <tr>
             <th>学生id</th>
             <th>学生姓名</th>
-            <th>密码</th>
+            <th>密1</th>
             <th>学生性别</th>
             <th>学生年龄</th>
             <th class="width-40">操作</th>
